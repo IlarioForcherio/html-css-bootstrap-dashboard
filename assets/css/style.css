@@ -1,0 +1,72 @@
+.navbar-collapse {
+    
+    flex-grow: 0;
+    
+}
+
+nav img{
+    width: 100%;
+}
+
+.fa-bell{
+    color: #fb8f00;
+}
+
+.mobile{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************
+*                          *
+*                          *                                                    *                          *                          *                          
+*       MEDIA QUERY        *               
+*                          *
+*                          *
+* **************************/
+
+
+
+@media  screen and (max-width:992px) {
+    .fa-list{
+        display: none;
+    }
+    .fa-circle-question{
+        display: none;
+    }
+    .fa-ellipsis-vertical{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    nav img{
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:768px) {
+    
+}
+
+@media  screen and (max-width:576px) {
+    
+}
+

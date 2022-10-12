@@ -1,8 +1,25 @@
-.navbar-collapse {
-    
-    flex-grow: 0;
-    
+a{
+    text-decoration: none;
 }
+
+.box500{
+    width: 100%;
+    height: 900px;
+    background-color: lightsalmon;
+    border: 2px solid black;
+}
+
+/* HEADER */
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+   
+}
+
 
 nav img{
     width: 100%;
@@ -15,6 +32,39 @@ nav img{
 .mobile{
     display: none;
 }
+
+/* SIDEBAR */
+
+.sidebar{
+    background-color: #11273f;
+    
+}
+
+.content{
+    overflow-y: auto;
+    height:calc(100vh - 100px );
+}
+
+/* CORPO-MAIN (CONTENT) */
+
+/* BLUE-BAR */
+
+.blue-bar{
+    background-color: #1a73e8;
+}
+
+/* TABELLA */
+
+/* TODO */
+.form-check{
+    border-bottom:0.5px solid lightgrey
+}
+
+
+
+
+
+
 
 
 

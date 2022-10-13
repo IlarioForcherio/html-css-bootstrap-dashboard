@@ -85,14 +85,14 @@ table img{
 /* OFFCANVAS */
 .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
     
-    --bs-offcanvas-width: 900px;
+    --bs-offcanvas-width:1000px;
     
 
 }
 /* TODO */
 .form-check{
     
-    border-bottom:0.5px solid lightgrey
+border-bottom:0.5px solid lightgrey
 }
 
 

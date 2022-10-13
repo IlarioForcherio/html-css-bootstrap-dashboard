@@ -82,6 +82,13 @@ table img{
     border-radius: 3px;
 }
 
+/* OFFCANVAS */
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
+    
+    --bs-offcanvas-width: 900px;
+    
+
+}
 /* TODO */
 .form-check{
     

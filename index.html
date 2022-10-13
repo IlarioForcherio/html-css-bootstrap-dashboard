@@ -101,8 +101,28 @@
         <div class="col-12 prossime">
            <!-- PRIMA CARD-TABELLA -->
            <div class="card">
-               <div class="card-header">
-                 Prossime Classi
+               <div class="card-header d-flex justify-content-between">
+                <div>Prossime classi</div>
+                <!-- bottone -->
+                
+                 <!-- off-canvas -->
+
+                <button class=" btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  +
+                </button>
+                
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Form?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <!-- offcanvas-form -->
+
+
+
+                  </div>
+                </div>
                </div>
                <div class="card-body">
                    <!-- TABELLA -->
@@ -111,8 +131,8 @@
                 <thead>
                   <tr>
                     <th scope="col">Nome</th>
-                    <th scope="col">Data inizio</th>
-                    <th scope="col">ROI</th>
+                    <th class="d-none d-lg-inline-block" scope="col">Data inizio</th>
+                    <th class="d-none d-lg-inline-block" scope="col">ROI</th>
                     <th scope="col">Stato</th>
                     <th scope="col">Azioni</th>
                     
@@ -124,8 +144,8 @@
                     <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
                     <span>Classe 75</span>
                     </th>
-                    <td>15 Feb 2021</td>
-                    <td>20%</td>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
                     <td><span class="badge text-bg-success">Success</span></td>
                     <td>
                       <i class="fa-solid fa-pen"></i>
@@ -135,10 +155,10 @@
                   <tr>
                     <th scope="row" width="50%">
                     <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
-                    <span>Classe 75</span>
+                    <span>Classe 76</span>
                     </th>
-                    <td>15 Feb 2021</td>
-                    <td>20%</td>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
                     <td><span class="badge text-bg-success">Success</span></td>
                     <td>
                       <i class="fa-solid fa-pen"></i>
@@ -148,10 +168,23 @@
                   <tr>
                     <th scope="row" width="50%">
                     <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
-                    <span>Classe 75</span>
+                    <span>Classe 77</span>
                     </th>
-                    <td>15 Feb 2021</td>
-                    <td>20%</td>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
+                    <td><span class="badge text-bg-warning">Success</span></td>
+                    <td>
+                      <i class="fa-solid fa-pen"></i>
+                      <i class="fa-solid fa-trash"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="50%">
+                    <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
+                    <span>Classe 78</span>
+                    </th>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
                     <td><span class="badge text-bg-success">Success</span></td>
                     <td>
                       <i class="fa-solid fa-pen"></i>
@@ -161,10 +194,23 @@
                   <tr>
                     <th scope="row" width="50%">
                     <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
-                    <span>Classe 75</span>
+                    <span>Classe 79</span>
                     </th>
-                    <td>15 Feb 2021</td>
-                    <td>20%</td>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
+                    <td><span class="badge text-bg-danger">Success</span></td>
+                    <td>
+                      <i class="fa-solid fa-pen"></i>
+                      <i class="fa-solid fa-trash"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" width="50%">
+                    <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
+                    <span>Classe 80</span>
+                    </th>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
                     <td><span class="badge text-bg-success">Success</span></td>
                     <td>
                       <i class="fa-solid fa-pen"></i>
@@ -174,11 +220,11 @@
                   <tr>
                     <th scope="row" width="50%">
                     <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
-                    <span>Classe 75</span>
+                    <span>Classe 81</span>
                     </th>
-                    <td>15 Feb 2021</td>
-                    <td>20%</td>
-                    <td><span class="badge text-bg-success">Success</span></td>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
+                    <td><span class="badge text-bg-danger">Success</span></td>
                     <td>
                       <i class="fa-solid fa-pen"></i>
                       <i class="fa-solid fa-trash"></i>
@@ -187,27 +233,14 @@
                   <tr>
                     <th scope="row" width="50%">
                     <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
-                    <span>Classe 75</span>
+                    <span>Classe 82</span>
                     </th>
-                    <td>15 Feb 2021</td>
-                    <td>20%</td>
+                    <td class="d-none d-lg-inline-block">15 Feb 2021</td>
+                    <td class="d-none d-lg-inline-block">20%</td>
                     <td><span class="badge text-bg-success">Success</span></td>
                     <td>
-                      <i class="fa-solid fa-pen"></i>
-                      <i class="fa-solid fa-trash"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row" width="50%">
-                    <img class="img-fluid" src="./assets/img/class-avatar.jpg" alt="">
-                    <span>Classe 75</span>
-                    </th>
-                    <td>15 Feb 2021</td>
-                    <td>20%</td>
-                    <td><span class="badge text-bg-success">Success</span></td>
-                    <td>
-                      <i class="fa-solid fa-pen"></i>
-                      <i class="fa-solid fa-trash"></i>
+                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
                     </td>
                   </tr>
                 </tbody>
@@ -218,7 +251,7 @@
         </div>
         <!-- FAQ -->
         <div class="row">
-        <div class="col-12 faq">
+        <div class="col-12 pb-4 faq">
            <!-- CARD FAQ -->
            <div class="card">
                <div class="card-header">

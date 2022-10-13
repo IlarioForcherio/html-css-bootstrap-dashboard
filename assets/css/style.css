@@ -35,9 +35,7 @@ nav img{
     color: #fb8f00;
 }
 
-.mobile{
-    display: none;
-}
+
 
 
 
@@ -63,11 +61,19 @@ nav img{
 .blue-bar{
     background-color: #1a73e8;
 }
+.bluebar span{
+    background-color: #155cba;
+}
+.text-bg-primary {
+    font-size: 0.6rem;
+    background-color:#155cba !important;
+}
 
 /* TABELLA */
 
 /* TODO */
 .form-check{
+    
     border-bottom:0.5px solid lightgrey
 }
 
@@ -112,15 +118,11 @@ nav img{
     .fa-ellipsis-vertical{
         display: none;
     }
-    .mobile{
-        display: block;
-    }
+
     .mobile img{
         width: 40%;
     }
-    .logo{
-        display: none;
-    }
+ 
 }
 
 @media  screen and (max-width:768px) {

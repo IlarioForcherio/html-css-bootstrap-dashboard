@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: white;
+    
 }
 
 .box500{
@@ -70,6 +70,17 @@ nav img{
 }
 
 /* TABELLA */
+
+table img{
+    width: 10%;
+    border-radius: 50%;
+}
+.fa-pen, .fa-trash{
+    color: grey;
+    padding: 2px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
 
 /* TODO */
 .form-check{
